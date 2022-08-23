@@ -1,0 +1,39 @@
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.width {
+    width: 500px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.hei {
+    height: 30px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: rgba(152, 209, 126, 0.671);
+    font-size: 20px;
+    border: none;
+    width: 50%;
+    align-self: center;
+    cursor: pointer;
+}
+
+.out {
+    width: 100px;
+    height: 50px;
+    background: red;
+    font-size: 15px;
+    color: azure;
+    text-align: center;
+    
+}
