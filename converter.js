@@ -63,7 +63,7 @@
             let res = parseInt(inputItem.value);
 
             if (units.value === 'Миллиметры' && unitsTarget.value === 'Миллиметры') {
-                res = units.value
+                res = inputItem.value
             } else if (units.value === 'Миллиметры' && unitsTarget.value === 'Сантиметры' && inputItem.value < 10) {
                 res = 0
             } else if (units.value === 'Миллиметры' && unitsTarget.value === 'Сантиметры' && inputItem.value >= 10) {
@@ -83,7 +83,7 @@
             } else if (units.value === 'Метры' && unitsTarget.value === 'Сантиметры') {
                 res = res * 100
             } else if (units.value === 'Метры' && unitsTarget.value === 'Метры') {
-                res = units.value
+                res = inputItem.value
             }
            
     
